@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCC Multi-Agent Systems - Digital Garden</title>
+    <meta name="description" content="TCC Multi-Agent Systems com Framework DOE-LLM - ROI 5:1 Validado - Digital Garden científico">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tcc-digital-garden-2025.netlify.app/">
+    <meta property="og:title" content="TCC Multi-Agent Systems - Digital Garden">
+    <meta property="og:description" content="Framework DOE-LLM para Multi-Agent Systems - 567 experimentos validados">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://tcc-digital-garden-2025.netlify.app/">
+    <meta property="twitter:title" content="TCC Multi-Agent Systems - Digital Garden">
+    <meta property="twitter:description" content="Framework DOE-LLM para Multi-Agent Systems - 567 experimentos validados">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0d1117;
+            color: #e6edf3;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            flex: 1;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem 0;
+            border-bottom: 1px solid #21262d;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #58a6ff, #7c3aed);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .header .subtitle {
+            font-size: 1.2rem;
+            color: #8b949e;
+        }
+        
+        .status-card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .status-title {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #58a6ff;
+        }
+        
+        .status-grid {
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            margin-bottom: 2rem;
+        }
+        
+        .status-item {
+            background: #0d1117;
+            padding: 1rem;
+            border-radius: 6px;
+            border: 1px solid #21262d;
+        }
+        
+        .status-item h3 {
+            color: #58a6ff;
+            margin-bottom: 0.5rem;
+        }
+        
+        .progress-bar {
+            background: #21262d;
+            height: 8px;
+            border-radius: 4px;
+            margin: 1rem 0;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            background: linear-gradient(90deg, #238636, #58a6ff);
+            height: 100%;
+            width: 95%;
+            border-radius: 4px;
+        }
+        
+        .nav-links {
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            margin-top: 2rem;
+        }
+        
+        .nav-link {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            border-color: #58a6ff;
+            background: #0d1117;
+        }
+        
+        .nav-link h3 {
+            color: #58a6ff;
+            margin-bottom: 0.5rem;
+        }
+        
+        .nav-link p {
+            color: #8b949e;
+            font-size: 0.9rem;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid #21262d;
+            color: #8b949e;
+            margin-top: 3rem;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: #58a6ff;
+        }
+        
+        .emoji {
+            font-size: 1.2em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .nav-links {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><span class="emoji">🎓</span> TCC Multi-Agent Systems</h1>
+            <div class="subtitle">Digital Garden - Framework DOE-LLM</div>
+        </div>
+        
+        <div class="status-card">
+            <div class="status-title"><span class="emoji">🚀</span> Sprint 3: Status Atual</div>
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+            <div style="text-align: center; margin-bottom: 1rem;">
+                <strong>95% Completo</strong> - Digital Garden Ready
+            </div>
+            
+            <div class="status-grid">
+                <div class="status-item">
+                    <h3><span class="emoji">📊</span> Experimentos</h3>
+                    <p>567 experimentos DOE-LLM validados</p>
+                </div>
+                <div class="status-item">
+                    <h3><span class="emoji">🔬</span> Descoberta</h3>
+                    <p>Anthropic Claude: 76.2% success rate</p>
+                </div>
+                <div class="status-item">
+                    <h3><span class="emoji">💰</span> ROI Validado</h3>
+                    <p>5:1 retorno demonstrado</p>
+                </div>
+                <div class="status-item">
+                    <h3><span class="emoji">🤖</span> Multi-Agent</h3>
+                    <p>Sistema 6 agentes + RAG 10GB</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="nav-links">
+            <a href="README.md" class="nav-link">
+                <h3><span class="emoji">🏠</span> Página Principal</h3>
+                <p>Visão geral completa do TCC Digital Garden</p>
+            </a>
+            
+            <a href="02-Tcc-Master/Dashboard-Progresso-TCC.md" class="nav-link">
+                <h3><span class="emoji">📈</span> Dashboard Progresso</h3>
+                <p>Métricas em tempo real do projeto</p>
+            </a>
+            
+            <a href="02-Tcc-Master/Dashboard-Experimentos-DOE.md" class="nav-link">
+                <h3><span class="emoji">🔬</span> Experimentos DOE</h3>
+                <p>Análise dos 567 experimentos sistemáticos</p>
+            </a>
+            
+            <a href="02-Tcc-Master/Dashboard-Multi-Agent-Performance.md" class="nav-link">
+                <h3><span class="emoji">🤖</span> Multi-Agent System</h3>
+                <p>Performance e arquitetura do sistema</p>
+            </a>
+            
+            <a href="02-Tcc-Master/Dashboard-ROI-Business.md" class="nav-link">
+                <h3><span class="emoji">💼</span> ROI Business</h3>
+                <p>Validação econômica e impacto industrial</p>
+            </a>
+            
+            <a href="DEPLOY-GUIDE.md" class="nav-link">
+                <h3><span class="emoji">🚀</span> Deploy Guide</h3>
+                <p>Guia completo de implementação</p>
+            </a>
+        </div>
+        
+        <div class="loading">
+            <p><span class="emoji">⚡</span> <strong>Transformando automação BIM através de ciência</strong></p>
+            <p>Primeira defesa TCC usando Obsidian Digital Garden</p>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>TCC Multi-Agent Systems © 2025 | Framework DOE-LLM | ROI 5:1 Validado</p>
+        <p>Desenvolvido com <span class="emoji">❤️</span> usando Obsidian + Netlify</p>
+    </div>
+</body>
+</html> 
